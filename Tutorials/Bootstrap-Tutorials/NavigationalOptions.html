@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Hello, world! - Navigation Options</title>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <ul class="nav nav-pills nav-tabs">
+            <!--
+                .nav - klasa koja od liste pravi navigaciju
+                .nav-pills - pravi od navigacije tj od linkova u navigaciji kao dugmice u obliku pilula // ovo ne radi na Bootstrap 5
+                .nav-tabs - pravi od linkova tabove sa JQuery-jem se daje aktivnost tabovima // ovo ne radi na Bootstrap 5
+                .nav-fill - siri linkove daje im width i prosiruje da popune jedan red koliko god ih ima
+            -->
+            <li class="nav-item">
+                <!--
+                    .nav-item - govori da je clan liste ustvari clan navigacije
+                -->
+                <a href="#" class="nav-link">Item One</a>
+                <!--
+                    .nav-link - menja mu izgled (gubi se linija koja podvlaci link i dodaje mu padding)
+                -->
+            </li>
+            <li class="nav-item ">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Item Two</a>
+                <!-- .dropdown-toggle - reci ce da je taj link dropdown sa togglom
+                    .data-toggle="dropdown" - govori nad kojim elementom ce se izvrsiti toggle"-->
+                    <div class="dropdown-menu">
+                        <!--.dropdown-menu - div koji ce drzati menu-->
+                        <a href="#" class="dropdown-item">Dropdown 1</a>
+                        <!-- .dropdown-item - klasa koja govori da je to item dropdown menu-a -->
+                        <a href="#" class="dropdown-item">Dropdown 2</a>                      
+                        <a href="#" class="dropdown-item">Dropdown 3</a>
+                        <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Dropdown 4</a>
+                        
+                    </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Item Three </a>
+            </li>
+        </ul>
+    </div>
+
+    
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

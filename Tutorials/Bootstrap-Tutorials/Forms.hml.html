@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Hello, world! - Forms</title>
+</head>
+<body>
+    <div class="container mt-5" >
+        <form>
+            <div class="form-group row">
+                <!-- .form-group - klasa koja kaze da ce to biti forma-->
+                <label class="col-sm-3 col-form-label" for="email">Email Address</label>
+                <!-- .col-sm-3 - klasa se dodeljuje za velicine ekrana manje od sm da se prebaci da bude ne malim velicinama 3 kolone i da se naredno u redu prebaci 
+                    sledeci red 
+                    for="" - attribut koristi se da bi se naglasilo za koji element je vezan label (koristi se samo za <label> i <output> tagove)
+                -->
+                <div class="col-sm-9">
+                    <!-- .col-md-9 - da se doda full width-->
+                    <input type="text" class="form-control" id="email"/>
+                    <!-- .form-control - klasa koja daje izgled elementu forme u koji treba uneti ili odabrati vrednost-->
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-3 col-form-label" for="password">Password</label>
+                <!--  for="" - attribut koristi se da bi se naglasilo za koji element je vezan label (koristi se samo za <label> i <output> tagove)
+                -->
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" id="password"/>
+                    <!-- .form-control - klasa koja daje izgled elementu forme u koji treba uneti ili odabrati vrednost-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9 offset-sm-3 offset-sm-3">
+                    <button type="submit" class="btn btn-primary mt-2">Login Now</button>
+                    <!-- .btn - klasa koja se daje button tj dugmetu
+                        .btn-primary - klasa koja daje boju dugmettu
+                    -->
+                </div>
+            </div>
+        </form>
+    </div>
+
+         <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

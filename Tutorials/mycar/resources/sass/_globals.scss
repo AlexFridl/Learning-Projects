@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #aaa;
+}
+
+a {
+    text-decoration: none;
+    i {
+        &:hover {
+            color: #fff;
+        }
+    }
+    &:hover {
+        text-decoration:none;
+    }
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+[v-cloak]{
+    display:none;
+}
+
+body {
+    background-color: #333;
+}
+
+.menu{
+    list-style: none;
+    li{
+        display: inline;
+        margin-right: 30px;
+        a{
+            font-size: 1.3em;
+            color: #aaa;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+}
