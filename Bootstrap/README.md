@@ -13,7 +13,7 @@ The layout is structured with Bootstrap’s **grid system** (`row` and `col-` cl
 
 ---
 
-## 📱 Responsive Design Overview
+## Responsive Design Overview
 
 - The layout is built using Bootstrap’s **container**, **row**, and **col** classes.  
 - Elements automatically stack or align side-by-side depending on the screen width.  
@@ -48,3 +48,4 @@ The layout is structured with Bootstrap’s **grid system** (`row` and `col-` cl
 ---
 
 Developed by: Aleksandra Fridl
+
