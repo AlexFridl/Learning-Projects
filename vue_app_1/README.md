@@ -52,19 +52,19 @@ npm run build
 ---
 ## How to Run the Project
 
-**Clone the repository**
+**Clone the repository:**
 git clone [https://github.com/AlexFridl/Learning-Projects/edit/main/vue_app_1]
 
-**Install dependencies**
+**Install dependencies:**
 npm install
 
-**Run the development server**
+**Run the development server:**
 npm run dev
 
 This will start the Vue app on:
 http://localhost:3000
 
-**Start the JSON server**
+**Start the JSON server:**
 npm run server
 
 This will start the JSON Server on:
@@ -73,10 +73,10 @@ http://localhost:5000/jobs
 
 ## Access the app
 
-Open your browser and go to:
+**Open your browser and go to:**
 http://localhost:3000
 
-The app will now display data fetched from:
+**The app will now display data fetched from:**
 http://localhost:5000/jobs
 
 ---
