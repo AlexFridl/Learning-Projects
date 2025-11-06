@@ -40,23 +40,21 @@ Inside job details:
 --- 
 
 ## Project Setup
-
+**Install dependencies:**
 npm install
 
-**Compile and Hot-Reload for Development**
-
+**Run the app in development mode:**
 npm run dev
 
-**Compile and Minify for Production**
-
+**Build for production:**
 npm run build
 
 ---
 ## How to Run the Project
 
 **Clone the repository**
-git clone https://github.com/USERNAME/REPOSITORY-NAME.git
-cd REPOSITORY-NAME
+git clone [https://github.com/USERNAME/REPOSITORY-NAME.git](https://github.com/AlexFridl/Learning-Projects/edit/main/vue_app_1]
+cd vue_app_1
 
 **Install dependencies**
 npm install
