@@ -5,14 +5,6 @@ The layout is structured with Bootstrap’s **grid system** (`row` and `col-` cl
 
 ---
 
-## Project Structure
-
-├── index.html
-├── style.css
-└── imgs/
-    └── (images used in project)
-
----
 ## Technologies Used
 
 - **HTML5** – for page structure  
@@ -54,4 +46,5 @@ The layout is structured with Bootstrap’s **grid system** (`row` and `col-` cl
 3. Resize the browser window to see how the layout adapts to different screen sizes.
 
 ---
+
 Developed by: Aleksandra Fridl
