@@ -53,7 +53,7 @@ npm run build
 ## How to Run the Project
 
 **Clone the repository**
-git clone [https://github.com/USERNAME/REPOSITORY-NAME.git](https://github.com/AlexFridl/Learning-Projects/edit/main/vue_app_1]
+git clone [https://github.com/AlexFridl/Learning-Projects/edit/main/vue_app_1]
 cd vue_app_1
 
 **Install dependencies**
