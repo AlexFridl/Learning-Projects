@@ -21,7 +21,7 @@ It represents a simple job search website that allows users to view, add, edit, 
 
 Fetch and display job listings from a local jobs.json file using Axios
 
-# Pages included:
+## Pages included:
 
 - **Home** – introduction page
 
