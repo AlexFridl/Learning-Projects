@@ -37,35 +37,11 @@ Inside job details:
 
 - **Delete job** – remove a job
 
----
-
-## Project Structure 
-
-project-root/
-│
-├─ public/
-│   └─ jobs.json          # contains job data
-│
-├─ src/
-│   ├─ components/
-│   │   ├─ JobList.vue
-│   │   ├─ JobItem.vue
-│   │   ├─ JobDetails.vue
-│   │   └─ AddJob.vue
-│   ├─ pages/
-│   │   ├─ Home.vue
-│   │   ├─ Jobs.vue
-│   │   └─ AddJob.vue
-│   ├─ App.vue
-│   └─ main.js
-│
-└─ package.json
-
----
+--- 
 
 ## Project Setup
 
-npm istall
+npm install
 
 **Compile and Hot-Reload for Development**
 
