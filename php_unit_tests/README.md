@@ -33,8 +33,8 @@ Bootstrap
 
 ## Setup Instructions
 
-Clone the repository: git clone https://github.com/yourusername/laravel-phpunit-practice.git](https://github.com/AlexFridl/Learning-Projects/php_unit_tests
-cd laravel-phpunit-practice
+Clone the repository: git clone https://github.com/AlexFridl/Learning-Projects/tree/main/php_unit_tests
+Create project: cd laravel-phpunit-practice
 
 Install dependencies:   cp .env.example .env
                         php artisan key:generate
