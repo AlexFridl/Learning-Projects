@@ -22,7 +22,7 @@ The goal of this project is to learn how to structure Playwright tests using POM
 ## Project Setup
 
 - Clone the repository: 
-git clone https://github.com/yourusername/playwright-login-pom.git
+git clone https://github.com/AlexFridl/Learning-Projects/tree/main/Playwright-_PageObjectModel
 - Navigate to the project folder:
 cd playwright-login-pom
 - Install dependencies: npm install
