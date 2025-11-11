@@ -33,7 +33,7 @@ Bootstrap
 
 ## Setup Instructions
 
-Clone the repository: git clone https://github.com/yourusername/laravel-phpunit-practice.git
+Clone the repository: git clone https://github.com/yourusername/laravel-phpunit-practice.git](https://github.com/AlexFridl/Learning-Projects/tree/main/php_unit_tests
 cd laravel-phpunit-practice
 
 Install dependencies:   cp .env.example .env
@@ -47,7 +47,7 @@ App will be available at: http://localhost:8000
 
 Writing unit tests for controllers and models
 Writing feature tests for authentication and CRUD routes
-Testing with an MySQ database
+Testing with an MySQL database
 Structuring tests with PHPUnit best practices
 
 ## Project Status
