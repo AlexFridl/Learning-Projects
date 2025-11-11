@@ -3,7 +3,7 @@
 This project was created to practice automated testing in Laravel using PHPUnit.
 The focus of this project is to understand how to test controllers, routes, and authentication logic using Laravel’s built-in testing framework. It simulates a basic product management system with user authentication and a simple service for currency conversion.
 
-# The goal of this project is to understand how to:
+### The goal of this project is to understand how to:
 
 Write unit and feature tests in Laravel
 Test database interactions, pagination, and controller logic
