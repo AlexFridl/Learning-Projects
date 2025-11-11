@@ -33,15 +33,15 @@ Bootstrap
 
 ## Setup Instructions
 
-Clone the repository: git clone https://github.com/AlexFridl/Learning-Projects/tree/main/php_unit_tests
-Create project: cd laravel-phpunit-practice
+- Clone the repository: git clone https://github.com/AlexFridl/Learning-Projects/tree/main/php_unit_tests
+- Create project: cd laravel-phpunit-practice
 
-Install dependencies:   cp .env.example .env
+- Install dependencies:   cp .env.example .env
                         php artisan key:generate
 
-Start the development server: php artisan serve
+- Start the development server: php artisan serve
 
-App will be available at: http://localhost:8000
+- App will be available at: http://localhost:8000
 
 ## What I’m Learning
 
