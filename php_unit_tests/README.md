@@ -5,10 +5,10 @@ The focus of this project is to understand how to test controllers, routes, and 
 
 ### The goal of this project is to understand how to:
 
-Write unit and feature tests in Laravel
-Test database interactions, pagination, and controller logic
-Implement and test custom service classes
-The project is still in progress, with additional tests and functionalities being developed.
+- Write unit and feature tests in Laravel
+- Test database interactions, pagination, and controller logic
+- Implement and test custom service classes
+- The project is still in progress, with additional tests and functionalities being developed.
 
 ## Technologies Used
 
